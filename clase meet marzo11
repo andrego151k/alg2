@@ -1,0 +1,48 @@
+''' w3school  
+''' https://www.tutorialesprogramacionya.com/pythonya/detalleconcepto.php?punto=10&codigo=10&inicio=0
+# https://www.geeksforgeeks.org/  ciclo for  chat g meets lunes 11 de marzo
+'''
+for i in range(0, 40, 3):
+    print(i)""" 
+'''
+ages = [5, 12, 25, 40, 60]
+
+for age in ages:
+    if age < 13:
+        print(f"Edad {age}: Niño")
+    elif age < 20:
+        print(f"Edad {age}: Adolescente")
+    elif age < 40:
+        print(f"Edad {age}: Adulto joven")
+    else:
+        print(f"Edad {age}: Adulto mayor")
+'''
+'''
+numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+for numero in numeros:
+    if numero % 2 == 0:  # Comprueba si el número es par
+        print(numero)
+'''
+
+'''
+numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+for numero in numeros:
+    if numero % 2 == 0:  # Comprueba si el número es par
+        print(numero)
+'''
+
+'''
+
+James Mosquera
+8:08 PM
+numeros = [3, 8, 2, 10, 4, 6, 7]
+
+suma = 0
+for numero in numeros:
+    if numero > 3:
+        suma += numero
+
+print("La suma de los números mayores que 5 es:", suma)
+'''
